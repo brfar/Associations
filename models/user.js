@@ -10,4 +10,6 @@ var userSchema = new mongoose.Schema({
         }
     ]
 });
+
+//v retorna o codigo acima quando solicitado
 module.exports = mongoose.model("User", userSchema);
